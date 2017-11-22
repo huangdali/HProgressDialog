@@ -14,8 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         HProgressDialog progressDialog = new HProgressDialog.Builder(this)
                 .isCanceledOnTouchOutside(true)
-                .setCornerRadius(20)
-                .setBackgroundWindowColor(Color.parseColor("#22000000"))
+                .setCornerRadius(10)
                 .setStrokeWidth(2)
                 .setProgressRimWidth(2)
                 .setTextColor(Color.WHITE)
