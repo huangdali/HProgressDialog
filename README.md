@@ -1,5 +1,27 @@
 
- 使用：
+## How to
+
+To get a Git project into your build:
+
+### Step 1. Add the JitPack repository to your build file
+
+Add it in your root build.gradle at the end of repositories:
+
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://www.jitpack.io' }
+		}
+	}
+ 
+### Step 2. Add the dependency
+
+	dependencies {
+	        implementation 'com.github.huangdali:HProgressDialog:v1.0'
+	}
+
+
+## 使用：
 
  ```java
  HProgressDialog progressDialog = new HProgressDialog.Builder(this)
